@@ -1,6 +1,6 @@
 # &lt;a-counter&gt;
 
-TODO: Write a project description
+A simple counter based on [Polymer](http://www.polymer-project.org) animated using [CSS animations](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations)
 
 > Maintained by [Cong Liu](https://github.com/ghostoy).
 
@@ -12,32 +12,32 @@ TODO: Write a project description
 
 1. Import Web Components' polyfill:
 
-	```html
-	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.0.20131025/polymer.min.js"></script>
-	```
+  ```html
+  <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.0.20131025/polymer.min.js"></script>
+  ```
 
 2. Import Custom Element:
 
-	```html
-	<link rel="import" href="src/a-counter.html">
-	```
+  ```html
+  <link rel="import" href="src/a-counter.html">
+  ```
 
 3. Start using it!
 
-	```html
-	<a-counter></a-counter>
-	```
+  ```html
+  <a-counter></a-counter>
+  ```
 
 ## Options
 
-Attribute  | Options                   | Default             | Description
----        | ---                       | ---                 | ---
-`value`    | *int*                     | `0`                 | Value to display on the counter
-`max-length`| *int*				 	   | `3`               	 | Max length in digits
-`pre`      | *string*                  | `""`                | String to be displayed before the number
-`post`     | *string*                  | `""`                | String to be displayed after the number
-`hold`     | *boolean*                 | `false`             | Hold the animation on loaded or after the value changed.
-`animation`| *string*				   | `normal`			 | Speed of animation: slow (4s), normal (2s), fast (1s)
+Attribute   | Options   | Default | Description
+---         | ---       | ---     | ---
+`value`     | *int*     | `0`     | Value to display on the counter
+`max-length`| *int*     | `3`     | Max length in digits
+`pre`       | *string*  | `""`    | String to be displayed before the number
+`post`      | *string*  | `""`    | String to be displayed after the number
+`hold`      | *boolean* | `false` | Hold the animation on loaded or after the value changed.
+`animation` | *string*  | `normal`| Speed of animation: slow (4s), normal (2s), fast (1s)
 
 ## Contributing
 
@@ -50,7 +50,7 @@ Attribute  | Options                   | Default             | Description
 ## History
 
 * v0.0.1 Nov 7, 2013
-	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
+  * Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
 
 ## License
 
